@@ -1,0 +1,21 @@
+{
+    "login": "user1",
+    "password": "1234",
+    "baseUrl": "http://127.0.0.1:8000",
+    "loginUrl": "/auth/token/login",
+    "apiUrl": "/api/v1/",
+    "myInfoUrl": "my-info",
+    "newGameUrl": "new-game/",
+    "getBoardsUrl": "get-boards/",
+    "getGameHistoryUrl": "game-history/",
+    "sendMyTurn": "send-turn/",
+    "getActiveGamesUrl": "my-games/",
+    "botTurnUrl": "bot-turn/",
+    "checkGameUrl": "game-state/",
+    "tryConcedeUrl": "try-concede/",
+    "userInfoUrl": "user-info/",
+    "newTurnsUrl": "new-turns/",
+    "listMyGamesUrl": "list-my-games/",
+    "isLoginSave": true,
+    "debug": false
+}
