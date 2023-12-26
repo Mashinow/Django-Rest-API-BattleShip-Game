@@ -31,4 +31,35 @@ The current version of the game includes several exciting features:
 ### Viewing Game History
 [![Viewing Game History](https://img.youtube.com/vi/KwNg_HOf_GY/0.jpg)](https://youtu.be/KwNg_HOf_GY)
 
-Stay tuned for more updates and enhancements to the game. Your feedback and contributions are always welcome!
+## Installation
+
+To get started with the BattleShip game, clone the repository, install the necessary dependencies for the server and client, and then run the respective `main.py` files. Follow the instructions below:
+
+1. Clone the repository:
+   ```
+   git clone [URL to Repository]
+   ```
+
+2. Navigate to the server directory and install its dependencies:
+   ```
+   cd path/to/server
+   pip install -r requirements.txt
+   ```
+
+3. Then, navigate to the client directory and install its dependencies:
+   ```
+   cd path/to/client
+   pip install -r requirements.txt
+   ```
+
+4. Run the server's `main.py`:
+   ```
+   python main.py
+   ```
+
+5. Open a new terminal, navigate to the client directory, and run the client's `main.py`:
+   ```
+   python main.py
+   ```
+
+Now, you should be able to play the game. While Python 3.10 is recommended as it is the version used during development, other versions may work but have not been tested for compatibility.
